@@ -53,3 +53,8 @@ p.textContent = "ME TOO!";
 content.appendChild(h1);
 content.appendChild(p);
 container.appendChild(content);
+
+const btn = document.querySelector("#btn");
+btn.addEventListener("click", function (e) {
+    e.target.style.background = "blue";
+});
